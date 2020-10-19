@@ -26,7 +26,7 @@ SECRET_KEY = 'j*^vd1$v4qs9%k4mv*p)w2im3qq*g9fw%%h7hhm$)v5aa_@&tg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'credit-transfer-money.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'virtual-banking.herokuapp.com']
 
 
 # Application definition
