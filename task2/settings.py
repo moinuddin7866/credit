@@ -126,9 +126,9 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 #if DEBUG:
-STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, 'static')
-    ]
+#STATICFILES_DIRS = [
+ #       os.path.join(BASE_DIR, 'static')
+  #  ]
 #else:
  #   
 DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
